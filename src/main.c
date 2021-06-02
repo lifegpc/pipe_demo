@@ -21,6 +21,12 @@
 #if HAVE_MALLOC_H
 #include<malloc.h>
 #endif
+#if HAVE_STRING_H
+#include<string.h>
+#endif
+#if !HAVE_PRINTF_S
+#define printf_s printf
+#endif
 
 int create_pipe(int fildes[2], unsigned int mem) {
 #if HAVE__PIPE

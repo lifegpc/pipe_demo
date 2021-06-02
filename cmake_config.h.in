@@ -13,3 +13,5 @@
 #cmakedefine HAVE_DECL_O_BINARY @HAVE_DECL_O_BINARY@
 #cmakedefine HAVE_STDLIB_H @HAVE_STDLIB_H@
 #cmakedefine HAVE_MALLOC_H @HAVE_MALLOC_H@
+#cmakedefine HAVE_STRING_H @HAVE_STRING_H@
+#cmakedefine HAVE_PRINTF_S @HAVE_PRINTF_S@

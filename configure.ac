@@ -24,6 +24,7 @@ AC_TYPE_SIZE_T
 # Checks for library functions.
 AC_FUNC_MALLOC
 AC_CHECK_FUNCS([pipe _pipe read _read write _write close _close])
+AC_CHECK_FUNCS([printf_s])
 
 AC_CONFIG_FILES([Makefile src/Makefile])
 AC_OUTPUT
